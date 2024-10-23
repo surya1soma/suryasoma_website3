@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photocopy and Desktop Processing Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Shop Logo" class="logo">
+        <h1>Welcome to Our Photocopy and Desktop Processing Shop</h1>
+    </header>
+
+    <main>
+        <section id="manager-section">
+            <h2>Meet Our Manager</h2>
+            <img src="manager.jpg" alt="Manager Photo" class="manager-photo">
+            <p>Our dedicated team is here to assist you with all your photocopying and document processing needs.</p>
+        </section>
+
+        <section id="work-undertaken">
+            <h2>Work Undertaken</h2>
+            <ul>
+                <li>Photocopying services (black & white and color)</li>
+                <li>Document printing (various sizes)</li>
+                <li>Binding and laminating services</li>
+                <li>Document scanning and digital archiving</li>
+            </ul>
+        </section>
+
+        <section id="upload-section">
+            <h2>Upload Your Documents</h2>
+            <form id="upload-form">
+                <input type="file" id="document" accept=".pdf,.doc,.docx,.jpg,.png" required>
+                <button type="submit">Upload Document</button>
+            </form>
+        </section>
+
+        <section id="feedback-section">
+            <h2>Customer Feedback</h2>
+            <form id="feedback-form">
+                <textarea id="feedback" rows="4" placeholder="Share your feedback here..." required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+        <section id="documents-section">
+            <h2>Uploaded Documents</h2>
+            <ul id="documents-list"></ul>
+        </section>
+
+        <div id="messages"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Photocopy and Desktop Processing Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
